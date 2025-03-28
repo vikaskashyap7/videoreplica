@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-export default function VideoEditor() {
+export default function App() {
   const [videoFile, setVideoFile] = useState(null);
   const [videoDuration, setVideoDuration] = useState('01:00');
   const [currentTime, setCurrentTime] = useState('00:00');
